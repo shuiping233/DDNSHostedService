@@ -1,0 +1,31 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "DDNSHosted.DDNSHostedService": "Debug"
+    }
+  },
+  "DDNS": {
+    // 要应用 DDNS 的网络连接的名称
+    "NetworkName": "WLAN",
+    "EnableIPv4": false,
+    "IsIPv4Nat": true,
+    "EnableIPv6": true,
+    "IsIPv6Nat": false,
+    "UsedIPv6Prefix": "2408",
+    "Domains": {
+      "example.com": {
+        "Hosts": [
+          "host1"
+        ],
+        "TTL": 600
+      }
+    },
+    "TTL": 600
+  },
+  "AlibabaCloud": {
+    "AccessKeyId": "YourAccessKeyId",
+    "AccessKeySecret": "YourAccessKeySecret",
+    "Endpoint": "alidns.cn-hangzhou.aliyuncs.com"
+  }
+}

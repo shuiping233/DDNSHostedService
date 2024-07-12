@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDNSHostedService", "DDNSHostedService.csproj", "{EA1BBEB6-A4AD-4FC0-B957-60466E4CFF8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA1BBEB6-A4AD-4FC0-B957-60466E4CFF8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA1BBEB6-A4AD-4FC0-B957-60466E4CFF8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA1BBEB6-A4AD-4FC0-B957-60466E4CFF8B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EA1BBEB6-A4AD-4FC0-B957-60466E4CFF8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA1BBEB6-A4AD-4FC0-B957-60466E4CFF8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA1BBEB6-A4AD-4FC0-B957-60466E4CFF8B}.Release|x64.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5A1D668-E9B8-4E96-AFFA-95D6BE91492C}
+	EndGlobalSection
+EndGlobal
