@@ -7,6 +7,7 @@
 - [x] 使用本机特定网络连接中获取IP地址时，监听本机特定网络连接的ip地址变化并更新IP地址
 - [x] 获取IP地址后，更新到阿里云的域名解析记录中
 - [ ] 记录日志到windows事件中或者保存到log文件中
+- [ ] linux systemd 支持
 
 ## 运行环境
 - [.NET Runtime 8.0.x](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
